@@ -1,29 +1,48 @@
 //Offerings carousel slider
-$('.offerings_slider').owlCarousel({
-  center: true,
+$(".our-offerings-slider").owlCarousel({
   loop: true,
-  items: 3,
-  margin:20,
-  autoplay:false,
-//   nav:true
+  center: true,
+  autoplay:true,
+  margin: 25,
+  responsiveClass: true,
+  autoplayTimeout: 3000,
+  smartSpeed: 800,
+  nav: false,
+  responsive: {
+    0: {
+      items: 1,
+      nav: false
+    },
+    680: {
+      items: 2,
+      nav: false,
+      loop: false
+    },
+    1000: {
+      items: 3,
+      nav: true
+    }
+  }
 });
 
 //Awards carousel slider
-$('.carousel-main').owlCarousel({
+$('.awards-carousel').owlCarousel({
 	items: 3,
 	loop: true,
 	autoplay: true,
-	autoplayTimeout: 1500,
+  autoplayTimeout: 7000,
+  smartSpeed: 800,
 	margin: 20,
 	nav: true,
 	dots: false,
-	navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
 })
 
 //Brands carousel slider
 $('.brand-carousel').owlCarousel({
     loop:true,
     autoplay:true,
+    autoplayTimeout: 2000,
+    smartSpeed: 800,
     responsive:{
       0:{
         items:1
@@ -35,5 +54,17 @@ $('.brand-carousel').owlCarousel({
         items:9
       }
     }
-  })
+  });
+
+
+//Modal on window load
+  $(window).on('load',function(){
+    var delayMs =100; 
+    setTimeout(function(){
+        $('#myModal').modal('show');
+    }, delayMs);
+});
+
+
+
 
