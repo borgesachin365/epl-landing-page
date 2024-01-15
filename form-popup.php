@@ -18,19 +18,19 @@
                                 <div class="packaging-solutions-right pop-up">
                                     <form>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="fullName" aria-describedby="namelHelp" placeholder="Name">
+                                            <input type="text" class="form-control" id="fullName" aria-describedby="namelHelp" placeholder="Name" autocomplete="off">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="userLocation" aria-describedby="locationHelp" placeholder="Location">
+                                            <input type="text" class="form-control" id="userLocation" aria-describedby="locationHelp" placeholder="Location" autocomplete="off">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="companyName" aria-describedby="companynameHelp" placeholder="Company Name">
+                                            <input type="text" class="form-control" id="companyName" aria-describedby="companynameHelp" placeholder="Company Name" autocomplete="off">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="userAddress" aria-describedby="emailHelp" placeholder="Enter Address">
+                                            <input type="text" class="form-control" id="userAddress" aria-describedby="emailHelp" placeholder="Enter Address" autocomplete="off">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="userRequirements" aria-describedby="requirementsHelp" placeholder="Product Requirements">
+                                            <input type="text" class="form-control" id="userRequirements" aria-describedby="requirementsHelp" placeholder="Product Requirements" autocomplete="off">
                                         </div>
                                         <button type="submit" class="btn btn-primary solutions-submit">Submit</button>
                                       </form>

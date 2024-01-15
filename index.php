@@ -135,19 +135,19 @@
                     <div class="packaging-solutions-right wow slideInUp" data-wow-duration="1.0s">
                         <form>
                             <div class="form-group">
-                                <input type="name" class="form-control" id="name" aria-describedby="namelHelp" placeholder="Name">
+                                <input type="name" class="form-control" id="name" aria-describedby="namelHelp" placeholder="Name" autocomplete="off">
                             </div>
                             <div class="form-group">
-                                <input type="name" class="form-control" id="location" aria-describedby="locationHelp" placeholder="Location">
+                                <input type="name" class="form-control" id="location" aria-describedby="locationHelp" placeholder="Location" autocomplete="off">
                             </div>
                             <div class="form-group">
-                                <input type="name" class="form-control" id="company-name" aria-describedby="companynameHelp" placeholder="Company Name">
+                                <input type="name" class="form-control" id="company-name" aria-describedby="companynameHelp" placeholder="Company Name" autocomplete="off">
                             </div>
                             <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" autocomplete="off">
                             </div>
                             <div class="form-group">
-                                <input type="name" class="form-control" id="requirements" aria-describedby="requirementsHelp" placeholder="Let us know your requirements">
+                                <input type="name" class="form-control" id="requirements" aria-describedby="requirementsHelp" placeholder="Let us know your requirements" autocomplete="off">
                             </div>
                             <button type="submit" class="btn btn-primary solutions-submit">Submit</button>
                           </form>

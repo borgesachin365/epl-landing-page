@@ -332,8 +332,8 @@
         padding-bottom: 10%;
     }
     .hero-section .hero-section-left h1 {
-        line-height: 30px;
-        font-size: 5.5vw;
+        line-height: 38px;
+        font-size: 7.5vw;
     }
     #myModal .modal-dialog {
         max-width: 100%;
@@ -353,13 +353,14 @@
         line-height: 24px;
     }
     .packaging-solutions-right .form-control {
-        font-size: 3.1vw;
+        font-size: 3.5vw;
+        padding: 0 0 3vw 0;
     }
     .packaging-solutions-right .form-group {
         margin-bottom: 7vw;
     }
     .packaging-solutions-right .btn.solutions-submit {
-        padding: 0.9vw 1.9vw;
+        padding: 1.9vw 3.9vw;
     }
     #myModal .form-left.pop-up-form {
         width: 80%;
@@ -370,23 +371,25 @@
         width: 40%;
     }
     .hero-section .hero-section-left p {
-        font-size: 3.7vw;
+        font-size: 4vw;
+        margin-top: 3.6vw;
     }
     .experience-the-future .experience-the-future-content h2, .packaging-solutions-left h2 {
-        font-size: 4.8vw;
+        font-size: 5.8vw;
     }
     .experience-the-future .experience-the-future-content li span {
-        font-size: 4vw;
+        font-size: 5vw;
+        margin-bottom: 1.5vw;
     }
     .experience-the-future .experience-the-future-content li p, .packaging-solutions-left p {
-        font-size: 3.1vw;
+        font-size: 3.7vw;
         line-height: 22px;
     }
     .experience-the-future .experience-the-future-content li {
         margin-bottom: 4vw;
     }
     .call-back h4 {
-        font-size: 3.4vw;
+        font-size: 4vw;
     }
     .packaging-solutions-right {
         padding: 30px;
@@ -395,14 +398,14 @@
         font-size: 5.3vw;
     }
     .our-offerings .card h5 {
-        font-size: 4.8vw;
+        font-size: 5.5vw;
     }
     .our-offerings .card p {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 22px;
     }
     .our-offerings .owl-item a.offerings-read-more {
-        font-size: 3.1vw;
+        font-size: 3.5vw;
     }
     .awards-carousel span {
         font-size: 3.5vw;
@@ -432,5 +435,8 @@
     }
     .awards-carousel .awards-img img {
         width: 65%!important;
+    }
+    .packaging-solutions-left p{
+        margin-bottom: 7vw;
     }
 }
