@@ -1,3 +1,436 @@
 @media(max-width:1600px){
-
+    .hero-section .hero-section-left h1{
+        line-height: 85px;
+    }
+    .hero-section::before {
+        right: -35px;
+        top: -30px;
+        transform: scale(0.9);
+    }
+    #myModal .form-left h2{
+        line-height: 50px;
+    }
+    .experience-left img {
+        left: -160px;
+    }
+    .experience-the-future .experience-the-future-content li span{
+        font-size: 1.3vw;
+    }
+    .experience-the-future .experience-the-future-content li p, .packaging-solutions-left p{
+        font-size: 1vw;
+    }
+}
+@media(max-width:1470px){
+    .hero-section .hero-section-left h1 {
+        line-height: 80px;
+    }
+    .our-offerings-slider .owl-nav button.owl-next span{
+        right: -85px;
+    }
+     .our-offerings-slider .owl-nav button.owl-prev span{
+        left: -85px;
+     }
+     .experience-the-future .experience-the-future-content li span {
+        font-size: 1.5vw;
+        margin-bottom: 0.5vw;
+    }
+    .experience-the-future .experience-the-future-content li p, .packaging-solutions-left p {
+        font-size: 1.2vw;
+    }
+    .experience-the-future .experience-the-future-content h2, .packaging-solutions-left h2 {
+        font-size: 2.2vw;
+    }
+    .call-back h4 {
+        font-size: 1.3vw;
+    }
+    .packaging-solutions-right .form-control {
+        font-size: 1.1vw;
+    }
+    .common-heading {
+        font-size: 2.2vw;
+    }
+    .our-offerings .center h5 {
+        font-size: 1.8vw;
+    }
+    .our-offerings .owl-item a.offerings-read-more {
+        font-size: 0.9vw;
+    }
+    .awards-carousel span {
+        font-size: 1.2vw;
+    }
+    footer ul li a {
+        font-size: 1.2vw;
+    }
+    footer ul li a.thin-font {
+        font-size: 1vw;
+    }
+    .packaging-solutions-left p{
+        width: 75%;
+    }
+}
+@media(max-width:1366px){
+    #myModal .form-left h2 {
+        line-height: 45px;
+    }
+    .request-call-back h4 {
+        font-size: 1.3vw;
+    }
+    .hero-section .hero-section-left h1 {
+        line-height: 75px;
+    }
+    .hero-section::before {
+        right: -75px;
+        top: -65px;
+        transform: scale(0.8);
+    }
+    .main-banner-content {
+        height: calc(83% - 165px);
+    }
+}
+@media(max-width:1280px){
+    .hero-section .hero-section-left h1 {
+        line-height: 65px;
+    }
+    .experience-the-future .experience-the-future-content h2, .packaging-solutions-left h2 {
+        font-size: 2vw;
+    }
+    .experience-the-future .experience-the-future-content li p, .packaging-solutions-left p{
+        line-height: 26px;
+    }
+    .packaging-solutions-right .btn.solutions-submit {
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .common-heading {
+        font-size: 2.1vw;
+    }
+    .our-offerings-slider .owl-nav button.owl-next span, .our-offerings-slider .owl-nav button.owl-prev span{
+        width: 45px;
+        height: 45px;
+    }
+    .awards-accreditations.common-padding{
+        padding:0 0 5% 0;
+    }
+    .awards-carousel .owl-nav button.owl-prev span{
+        left: -55px;
+    }
+    .awards-carousel .owl-nav button.owl-next span{
+        right: -55px;
+    }
+}
+@media(max-width:1101px){
+    .experience-left img {
+        left: -100px;
+    }
+    .hero-section .hero-section-left h1 {
+        line-height: 60px;
+    }
+    .our-offerings .card p{
+        font-size: 14px;
+    }
+    #myModal .form-left h2 {
+        line-height: 40px;
+    }
+    .packaging-solutions-right .btn.solutions-submit {
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px){
+    .awards-carousel .owl-nav button.owl-prev span {
+        left: -20px;
+        top: 35px;
+    }
+    .awards-carousel .owl-nav button.owl-next span {
+        right: -20px;
+        top: 35px;
+    }
+    .our-offerings-slider .owl-nav button.owl-prev span {
+        left: -60px;
+    }
+    .our-offerings-slider .owl-nav button.owl-next span {
+        right: -60px;
+    }
+}
+@media(max-width:991px){
+    #myModal .form-left h2 {
+        line-height: 34px;
+    }
+    .hero-section::before {
+        right: -100px;
+        top: -80px;
+        transform: scale(0.7);
+    }
+    .hero-section .hero-section-left h1 {
+        line-height: 50px;
+    }
+    .our-offerings .center .card-img-top {
+        width: 35%;
+    }
+    .our-offerings .card p {
+        font-size: 13px;
+    }
+}
+@media(max-width:768px){
+    .our-offerings-slider {
+        margin-top: 50px;
+    }
+    .common-heading {
+        font-size: 4vw;
+    }
+    .awards-carousel span {
+        font-size: 2.2vw;
+    }
+    .col-md-6{
+        max-width: 100%!important;
+        flex:auto!important;
+    }
+    .hero-section .hero-section-left {
+        margin-top: 35px;
+    }
+    .hero-section .hero-section-left h1{
+        font-size: 5vw;
+    }
+    .hero-section .hero-section-left p {
+        font-size: 2vw;
+    }
+    #myModal .modal-dialog {
+        max-width: 80%;
+    }
+    #myModal .form-left h2 {
+        line-height: 30px;
+        font-size: 2.4vw;
+    }
+    .packaging-solutions-right .form-control {
+        font-size: 1.9vw;
+    }
+    .packaging-solutions-right .btn.solutions-submit {
+        font-size: 14px;
+    }
+    .request-call-back h4 {
+        font-size: 2vw;
+    }
+    .experience-left img{
+        width: 60%;
+        position: static;
+        margin:0 auto;
+        display: block;
+    }
+    .custom-container {
+        width: 90%;
+    }
+    .hero-section .hero-section-right img {
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+    }
+    .experience-the-future {
+        background-position: bottom;
+    }
+    .experience-the-future .experience-the-future-content {
+        padding-left: 0%;
+        border-left: none;
+        margin-top: 50px;
+        padding-bottom: 0;
+    }
+    .experience-the-future .experience-the-future-content h2, .packaging-solutions-left h2 {
+        font-size: 4vw;
+        margin-bottom: 4vw;
+    }
+    .experience-the-future .experience-the-future-content li span {
+        font-size: 3vw;
+    }
+    .experience-the-future .experience-the-future-content li p, .packaging-solutions-left p {
+        font-size: 2.1vw;
+    }
+    .experience-the-future .experience-the-future-content li {
+        margin-bottom: 3vw;
+    }
+    .call-back h4 {
+        font-size: 2.5vw;
+    }
+    .call-back{
+        margin-top: 35px;
+    }
+    .packaging-solutions-right .form-group {
+        margin-bottom: 5vw;
+    }
+    .packaging-solutions-left p {
+        border-left: 2px solid var(--primary-color-shade);
+        padding-left: 1.3vw;
+    }
+    .packaging-solutions-right{
+        margin-top: 35px;
+    }
+    .modal-body .col-md-5,.modal-body .col-md-7{
+        max-width: 100%;
+        flex: auto;
+    }
+    #myModal .form-left{
+        display: block;
+    }
+    .experience-the-future{
+        background-image: url("../img/experience-the-future-mobile.jpg");
+    }
+    .packaging-solutions-left p {
+        width: 100%;
+    }
+    .packaging-solutions-right.pop-up{
+        margin-top: 0px;
+    }
+    #myModal .form-left.pop-up-form{
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    .awards-carousel .owl-nav button.owl-prev span,.awards-carousel .owl-nav button.owl-next span{
+        display: none;
+    }
+    .main-banner-content .order-first{
+        order: unset;
+    }
+    .main-banner-content .order-last{
+        order: unset;
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: 0;
+    }
+    .our-clients .brand-carousel {
+        margin-top: 35px;
+    }
+    .awards-carousel {
+        margin-top: 35px;
+    } 
+    footer ul li a {
+        font-size: 1.8vw;
+    }
+    footer ul li a.thin-font{
+        font-size: 1.6vw; 
+    }  
+    .our-offerings .owl-item a.offerings-read-more {
+        font-size: 1.4vw;
+    }
+    .our-offerings .card h5 {
+        font-size: 2.8vw;
+    }
+    .our-offerings .card p {
+        font-size: 12px;
+    }
+}
+@media(max-width:480px){
+    .hero-section{
+        height: auto;
+    }
+    .hero-section::before {
+        right: -200px;
+        top: -140px;
+        transform: scale(0.5);
+    }
+    .hero-section::after {
+        left: -160px;
+        transform: scale(0.2);
+    }
+    .hero-section .hero-section-left {
+        margin-top: 10px;
+        padding-bottom: 10%;
+    }
+    .hero-section .hero-section-left h1 {
+        line-height: 30px;
+        font-size: 5.5vw;
+    }
+    #myModal .modal-dialog {
+        max-width: 100%;
+    }
+    #myModal .form-right {
+        padding: 10px;
+    }
+    .request-call-back h4 {
+        font-size: 3.5vw;
+    }
+    #myModal .packaging-solutions-right {
+        padding: 15px;
+        border-radius: 10px;
+    }
+    #myModal .form-left h2 {
+        font-size: 4.2vw;
+        line-height: 24px;
+    }
+    .packaging-solutions-right .form-control {
+        font-size: 3.1vw;
+    }
+    .packaging-solutions-right .form-group {
+        margin-bottom: 7vw;
+    }
+    .packaging-solutions-right .btn.solutions-submit {
+        padding: 0.9vw 1.9vw;
+    }
+    #myModal .form-left.pop-up-form {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0 15px 0;
+    }
+    header a img {
+        width: 40%;
+    }
+    .hero-section .hero-section-left p {
+        font-size: 3.7vw;
+    }
+    .experience-the-future .experience-the-future-content h2, .packaging-solutions-left h2 {
+        font-size: 4.8vw;
+    }
+    .experience-the-future .experience-the-future-content li span {
+        font-size: 4vw;
+    }
+    .experience-the-future .experience-the-future-content li p, .packaging-solutions-left p {
+        font-size: 3.1vw;
+        line-height: 22px;
+    }
+    .experience-the-future .experience-the-future-content li {
+        margin-bottom: 4vw;
+    }
+    .call-back h4 {
+        font-size: 3.4vw;
+    }
+    .packaging-solutions-right {
+        padding: 30px;
+    }
+    .common-heading {
+        font-size: 5.3vw;
+    }
+    .our-offerings .card h5 {
+        font-size: 4.8vw;
+    }
+    .our-offerings .card p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .our-offerings .owl-item a.offerings-read-more {
+        font-size: 3.1vw;
+    }
+    .awards-carousel span {
+        font-size: 3.5vw;
+        margin-top: 10px;
+    }
+    footer .footer-main .footer-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .footer-main .footer-box:nth-last-child(1){
+        margin-bottom: 0px;
+    }
+    footer .footer-main{
+        display: block;
+    }
+    footer ul li a {
+        font-size: 3.8vw;
+    }
+    footer ul li a.thin-font {
+        font-size: 3.6vw;
+    }
+    .our-clients .brand-carousel {
+        margin-top: 15px;
+    }
+    .awards-carousel {
+        margin-top: 20px;
+    }
+    .awards-carousel .awards-img img {
+        width: 65%!important;
+    }
 }

@@ -364,6 +364,10 @@ footer ul li a.thin-font:hover{
     font-size: 0.8vw;
     font-family: var(--main-font);
 }
+.our-offerings .owl-item a.offerings-read-more:hover{
+  background-color: var(--white-color);
+  color: var(--primary-color-shade);
+}
 .our-offerings .active {
     opacity: 0.9;
     transition: all 0.3s;
@@ -389,6 +393,9 @@ footer ul li a.thin-font:hover{
     position: absolute;
     top: 37%;
     right: -115px;
+}
+.brand-carousel .owl-dots{
+  display: none;
 }
 .our-offerings-slider .owl-nav button.owl-prev span{
     background-image: url(../svg/arrow-left-s-line.svg);
@@ -452,7 +459,7 @@ footer ul li a.thin-font:hover{
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 0 2.5vw;
+    padding: 0 0 0 5.5vw;
   }
   #myModal .form-left h2{
     line-height: 55px;

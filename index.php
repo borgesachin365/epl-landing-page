@@ -8,14 +8,14 @@
     <link rel="icon" href="fav/favicon-32x32.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-<?php include "form-popup.php" ?>
+<?php include "form-popup.php"?>
 <div class="main-wrapper">
     <!--hero banner section start-->
     <section class="hero-section">
@@ -29,15 +29,15 @@
         <div class="main-banner-content">
             <div class="custom-container">
                 <div class="row no-gutters">
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-last">
+                        <div class="hero-section-right">
+                            <img src="./img/top-banner-tubes.png" alt="top banner tubes">
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-first">
                         <div class="hero-section-left">
                             <h1>World's leading specialty packaging company</h1>
                             <p>Leading the Pack Sustainably</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hero-section-right">
-                            <img src="./img/top-banner-tubes.png" alt="top banner tubes">
                         </div>
                     </div>
                 </div>
@@ -50,42 +50,42 @@
         <div class="custom-container">
             <div class="row no-gutters">
                 <div class="col-md-6">
-                    <div class="experience-left" data-aos="fade-up" data-aos-duration="800">
-                        <img src="./img/experience-left-tube.png" alt="experience left tube">
+                    <div class="experience-left">
+                        <img src="./img/experience-left-tube.png" alt="experience left tube" class="wow slideInUp" data-wow-duration="1.0s">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="experience-the-future-content">
-                        <h2 data-aos="fade-down" data-aos-duration="900">Experience the future of <br>
+                        <h2 data-aos="fade-down" class="wow slideInUp" data-wow-duration="1.0s">Experience the future of <br>
                             packaging with EPL</h2>
                             <ul>
-                                <li data-aos="fade-down" data-aos-duration="1000">
+                                <li class="wow slideInUp" data-wow-duration="0.5s">
                                     <span>Next-Gen Durability</span>
                                     <p>Our laminated tubes guarantee robust
                                         protection for your products, ensuring
                                         they reach your customers intact and pristine.
                                     </p>
                                 </li>
-                                <li data-aos="fade-down" data-aos-duration="1100">
+                                <li class="wow slideInUp" data-wow-duration="0.6s">
                                     <span>Sustainability</span>
                                     <p>100% of the tubes manufactured by
                                         EPL are recyclable.
                                     </p>
                                 </li>
-                                <li data-aos="fade-down" data-aos-duration="1200">
+                                <li class="wow slideInUp" data-wow-duration="0.6s">
                                     <span>Printing Technology</span>
                                     <p>EPL pioneers packaging excellence through
                                         cutting-edge technology.
                                     </p>
                                 </li>
-                                <li data-aos="fade-down" data-aos-duration="1300">
+                                <li class="wow slideInUp" data-wow-duration="0.6s">
                                     <span>Global Prowess</span>
                                     <p>With a vast global presence, EPL is trusted
                                         by industry leaders worldwide for top-notch
                                         packaging solutions.
                                     </p>
                                 </li>
-                                <li data-aos="fade-down" data-aos-duration="1400">
+                                <li class="wow slideInUp" data-wow-duration="0.6s">
                                     <span>Innovative Technology</span>
                                     <p>Stay ahead of the competition by partnering with
                                         a company that invests in the latest technological
@@ -94,7 +94,7 @@
                                 </li>
                             </ul>
                     </div>
-                    <div class="call-back" data-aos="fade-down" data-aos-duration="1500">
+                    <div class="call-back wow slideInUp" data-wow-duration="0.6s">
                         <h4>Request a call back from our sales team</h4>
                     </div>
                 </div>
@@ -108,31 +108,31 @@
             <div class="row no-gutters">
                 <div class="col-md-6">
                     <div class="packaging-solutions-left">
-                        <h2 data-aos="fade-up" data-aos-duration="600">Tailored Packaging Solutions</h2>
-                        <p data-aos="fade-up" data-aos-duration="700">Are you looking for sustainable
+                        <h2 class="wow slideInUp" data-wow-duration="1.0s">Tailored Packaging Solutions</h2>
+                        <p class="wow slideInUp" data-wow-duration="0.5s">Are you looking for sustainable
                             packaging options?
                         </p>
-                        <p data-aos="fade-up" data-aos-duration="800">Not sure how tube packaging will enhance
+                        <p class="wow slideInUp" data-wow-duration="0.6s">Not sure how tube packaging will enhance
                             the shelf appeal of your products?
                         </p>
-                        <p data-aos="fade-up" data-aos-duration="900">Want to know the sustainable packaging
+                        <p class="wow slideInUp" data-wow-duration="0.6s">Want to know the sustainable packaging
                             options we offer?
                         </p>
-                        <p data-aos="fade-up" data-aos-duration="1000">Are you in need of customized packaging
+                        <p class="wow slideInUp" data-wow-duration="0.6s">Are you in need of customized packaging
                             solutions?
                         </p>
-                        <p data-aos="fade-up" data-aos-duration="1100">
+                        <p class="wow slideInUp" data-wow-duration="0.6s">
                             Wondering how EPL offers cost-effective
                             packaging tube solutions without
                             compromising on quality?
                         </p>
-                        <p data-aos="fade-up" data-aos-duration="1200">Curious about the latest trends in
+                        <p class="wow slideInUp" data-wow-duration="0.6s">Curious about the latest trends in
                             packaging design?
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="packaging-solutions-right" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="packaging-solutions-right wow slideInUp" data-wow-duration="1.0s">
                         <form>
                             <div class="form-group">
                                 <input type="name" class="form-control" id="name" aria-describedby="namelHelp" placeholder="Name">
@@ -160,10 +160,10 @@
     <!--our offerings section start-->
     <section class="our-offerings common-padding">
         <div class="custom-container">
-            <h1 class="common-heading">
+            <h1 class="common-heading wow slideInUp" data-wow-duration="0.6s">
                 Our Offerings
             </h1>
-            <div class="owl-carousel our-offerings-slider owl-theme">
+            <div class="owl-carousel our-offerings-slider owl-theme wow slideInUp" data-wow-duration="0.7s">
                 <div>
                   <div class="card text-center">
                     <img class="card-img-top" src="./img/offerings/platina.png" alt="">
@@ -262,8 +262,8 @@
     <!--awards-accreditations section start-->
     <section class="awards-accreditations common-padding">
         <div class="container">
-            <h2 class="common-heading" style="color: #063781;">Awards and Accreditations</h2>
-            <div class="owl-carousel awards-carousel">
+            <h2 class="common-heading wow slideInUp" style="color: #063781;" data-wow-duration="0.6s">Awards and Accreditations</h2>
+            <div class="owl-carousel awards-carousel wow slideInUp" data-wow-duration="0.7s">
 				<div>
                     <div class="awards-img">
                         <img src="./img/awards/ecovadis.png">
@@ -299,10 +299,10 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="js/custom.js"></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="js/custom.js"></script> 
 <script>
-    AOS.init();
-</script>
+    new WOW().init();
+</script> 
 </body>
 </html>

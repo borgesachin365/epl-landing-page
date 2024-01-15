@@ -9,28 +9,28 @@
                 <div class="modal-body">
                     <div class="row no-gutters">
                         <div class="col-md-5">
-                            <div class="form-left">
+                            <div class="form-left pop-up-form">
                                 <h2>Uncover the advantages of partnering with a packaging leader</h2>
                             </div>
                         </div>
                         <div class="col-md-7">
                             <div class="form-right">
-                                <div class="packaging-solutions-right">
+                                <div class="packaging-solutions-right pop-up">
                                     <form>
                                         <div class="form-group">
-                                            <input type="name" class="form-control" id="name" aria-describedby="namelHelp" placeholder="Name">
+                                            <input type="text" class="form-control" id="fullName" aria-describedby="namelHelp" placeholder="Name">
                                         </div>
                                         <div class="form-group">
-                                            <input type="name" class="form-control" id="location" aria-describedby="locationHelp" placeholder="Location">
+                                            <input type="text" class="form-control" id="userLocation" aria-describedby="locationHelp" placeholder="Location">
                                         </div>
                                         <div class="form-group">
-                                            <input type="name" class="form-control" id="company-name" aria-describedby="companynameHelp" placeholder="Company Name">
+                                            <input type="text" class="form-control" id="companyName" aria-describedby="companynameHelp" placeholder="Company Name">
                                         </div>
                                         <div class="form-group">
-                                            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Address">
+                                            <input type="text" class="form-control" id="userAddress" aria-describedby="emailHelp" placeholder="Enter Address">
                                         </div>
                                         <div class="form-group">
-                                            <input type="name" class="form-control" id="requirements" aria-describedby="requirementsHelp" placeholder="Product Requirements">
+                                            <input type="text" class="form-control" id="userRequirements" aria-describedby="requirementsHelp" placeholder="Product Requirements">
                                         </div>
                                         <button type="submit" class="btn btn-primary solutions-submit">Submit</button>
                                       </form>

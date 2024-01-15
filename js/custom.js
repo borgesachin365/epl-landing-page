@@ -1,4 +1,5 @@
 //Offerings carousel slider
+$(document).ready(function(){
 $(".our-offerings-slider").owlCarousel({
   loop: true,
   center: true,
@@ -13,10 +14,11 @@ $(".our-offerings-slider").owlCarousel({
       items: 1,
       nav: false
     },
-    680: {
+    768: {
       items: 2,
       nav: false,
-      loop: false
+      loop: false,
+      center:false
     },
     1000: {
       items: 3,
@@ -24,10 +26,10 @@ $(".our-offerings-slider").owlCarousel({
     }
   }
 });
+});
 
 //Awards carousel slider
 $('.awards-carousel').owlCarousel({
-	items: 3,
 	loop: true,
 	autoplay: true,
   autoplayTimeout: 7000,
@@ -35,6 +37,17 @@ $('.awards-carousel').owlCarousel({
 	margin: 20,
 	nav: true,
 	dots: false,
+  responsive:{
+    0:{
+      items:2
+    },
+    600:{
+      items:2
+    },
+    1000:{
+      items:3
+    }
+  }
 })
 
 //Brands carousel slider
@@ -45,13 +58,13 @@ $('.brand-carousel').owlCarousel({
     smartSpeed: 800,
     responsive:{
       0:{
-        items:1
+        items:4
       },
       600:{
-        items:3
+        items:6
       },
       1000:{
-        items:9
+        items:8
       }
     }
   });

@@ -1,8 +1,8 @@
     <!--our clients start-->
     <section class="our-clients common-padding">
         <div class="custom-container">
-            <h1 class="common-heading">Our Clients</h1>
-            <div class="brand-carousel owl-carousel">
+            <h1 class="common-heading wow slideInUp" data-wow-duration="0.6s">Our Clients</h1>
+            <div class="brand-carousel owl-carousel wow slideInUp" data-wow-duration="0.7s">
                 <div class="single-logo">
                   <img src="./img/clients/colgate.png" alt="colgate logo">
                 </div>

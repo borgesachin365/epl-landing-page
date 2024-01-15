@@ -2,7 +2,7 @@
     <footer>
         <div class="custom-container">
             <div class="footer-main">
-                <div class="footer-box">
+                <div class="footer-box wow slideInUp" data-wow-duration="0.6s">
                     <ul>
                         <li>
                             <a href="javascript:void(0)">Who Are We</a>
@@ -24,7 +24,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-box">
+                <div class="footer-box wow slideInUp" data-wow-duration="0.7s">
                     <ul>
                         <li>
                             <a href="javascript:void(0)">News & Media</a>
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-box">
+                <div class="footer-box wow slideInUp" data-wow-duration="0.8s">
                     <ul>
                         <li>
                             <a href="javascript:void(0)">Product Category</a>
@@ -71,7 +71,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-box">
+                <div class="footer-box wow slideInUp" data-wow-duration="0.9s">
                     <ul>
                         <li>
                             <a href="javascript:void(0)">Product Segment</a>
